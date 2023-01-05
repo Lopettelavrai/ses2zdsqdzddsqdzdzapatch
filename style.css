@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background: rgb(138,39,104);
+    background: linear-gradient(90deg, rgba(138,39,104,1) 0%, rgba(42,195,231,1) 100%);
+}
+
+#Lesrichesses {
+    margin-left: 520px;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 125px;
+    color: aliceblue;
+}
+
+#titre {
+    height: 250px;
+    text-align: center;
+    background: rgb(66,182,215);
+background: linear-gradient(144deg, rgba(66,182,215,1) 0%, rgba(114,17,193,1) 100%);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 18px;
+    grid-row-gap: 24px;
+    color: aliceblue;
+    font-size: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2;
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;}
+    .div2 { grid-area: 1 / 2 / 2 / 3;
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;}
+    .div3 { grid-area: 1 / 3 / 2 / 4;
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;}
+    .div4 { grid-area: 1 / 4 / 2 / 5;
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;}
+    .div5 { grid-area: 2 / 1 / 3 / 2;
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;}
+    .div6 { grid-area: 2 / 2 / 3 / 3;
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;}
+    .div7 { grid-area: 2 / 3 / 3 / 4;
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;}
+    .div8 { grid-area: 2 / 4 / 3 / 5;
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;}
+
+        .btn {
+            position: absolute;
+            font-size: large;
+            width: 170px;
+            height: 70px;
+            color: aliceblue;
+            background-image: linear-gradient(to left, #4776E6 0%, #8E54E9  50%, #4776E6  100%);
+            background-size: 200% auto;
+            border-width: 0;
+            border-radius: 15px;
+            margin-left: 125px;
+            margin-top: 100px;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background: rgb(242,148,210);
+background: linear-gradient(97deg, rgba(242,148,210,1) 0%, rgba(42,195,231,1) 100%);   
+        }
+
